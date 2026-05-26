@@ -30,12 +30,12 @@ Herramienta de consola que consulta en tiempo real la tabla de posiciones de La 
 
 ### Configurar la variable (Windows PowerShell)
 ```powershell
-$env:API_KEY_PROYECTO="tu_clave_aqui"
+$env:API_KEY_PROYECTO="5e716dca76msh370e8b79fe80512p12d0cfjsn5b32150d154c"
 ```
 
 ### Configurar la variable (Linux / Mac)
 ```bash
-export API_KEY_PROYECTO="tu_clave_aqui"
+export API_KEY_PROYECTO="5e716dca76msh370e8b79fe80512p12d0cfjsn5b32150d154c"
 ```
 
 ---
@@ -44,7 +44,7 @@ export API_KEY_PROYECTO="tu_clave_aqui"
 
 ### 1. Configurar la variable de entorno
 ```powershell
-$env:API_KEY_PROYECTO="tu_clave_aqui"
+$env:API_KEY_PROYECTO="5e716dca76msh370e8b79fe80512p12d0cfjsn5b32150d154c"
 ```
 
 ### 2. Ejecutar el script de automatización
@@ -63,7 +63,7 @@ docker logs samplerunning
 
 ```powershell
 pip install -r requirements.txt
-$env:API_KEY_PROYECTO="tu_clave_aqui"
+$env:API_KEY_PROYECTO="5e716dca76msh370e8b79fe80512p12d0cfjsn5b32150d154c"
 python app.py
 ```
 
